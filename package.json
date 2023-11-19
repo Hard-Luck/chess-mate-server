@@ -1,0 +1,36 @@
+{
+  "name": "chess-mate-server",
+  "version": "1.0.0",
+  "description": "server for sockets for chess-mate connections",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node ./src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hard-Luck/chess-mate-server.git"
+  },
+  "keywords": [
+    "chess",
+    "socket",
+    "server"
+  ],
+  "author": "Mark Tyree",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hard-Luck/chess-mate-server/issues"
+  },
+  "homepage": "https://github.com/Hard-Luck/chess-mate-server#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.9.2",
+    "@types/socket.io": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  }
+}
